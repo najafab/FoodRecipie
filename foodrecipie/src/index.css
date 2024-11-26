@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+.inputss {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    /* Gradient background */
+    color: white;
+    /* Text color */
+    outline: none;
+    transition: background 0.3s ease-in-out;
+    width: 20rem;
+    margin: auto;
+    padding: 6px;
+    color: white;
+}
